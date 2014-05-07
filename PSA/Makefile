@@ -11,10 +11,10 @@ clean:
 	rm tsp 
 
 run280:
-	mpirun -np 4 ./tsp ../../benchmark/a280.tsp
+	mpirun -np 4 ./tsp ../benchmark/a280.tsp
 
 run100:
-	mpirun -np 4 ./tsp ../../benchmark/kroA100.tsp
+	mpirun -np 4 ./tsp ../benchmark/kroA100.tsp
 
 run493:
-	mpirun -np 4 ./tsp ../../benchmark/d493.tsp
+	mpirun -np 4 ./tsp ../benchmark/d493.tsp
